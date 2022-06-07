@@ -1,0 +1,87 @@
+.productCart {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gridLeftCart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  gap: 0.5rem;
+}
+
+.img {
+  width: 100%;
+  background: #e0e0e0;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 79px;
+}
+.img > img {
+  width: 100%;
+}
+
+.boxInfoLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.boxInfoLeft > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.boxInfoLeft > span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #828282;
+}
+
+.gridRigthCart {
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-end;
+  width: 100%;
+}
+
+.gridRigthCart > span:first-child {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #27ae60;
+}
+
+.gridRigthCart > span:nth-child(2) {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  color: #828282;
+}
+
+.gridRigthCart > button {
+  width: 30%;
+  background: #e0e0e0;
+  border: 2px solid #e0e0e0;
+}
+
+.gridRigthCart > button:hover {
+  box-shadow: 0 0 5px 0em rgb(158, 157, 157);
+}

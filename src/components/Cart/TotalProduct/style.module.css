@@ -1,0 +1,51 @@
+.totalProduct {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.totalProduct > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.totalProduct > div > label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.totalProduct > div > span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #828282;
+}
+
+.totalProduct > button {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #828282;
+
+  padding: 1rem;
+  background: #e0e0e0;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+}
+
+.totalProduct > button:hover {
+  transition: 0.3s;
+  background: #828282;
+  color: #e0e0e0;
+  border: 2px solid #828282;
+}
